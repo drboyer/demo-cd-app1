@@ -1,0 +1,9 @@
+version = 0.0.1
+os: linux
+files:
+  - source: server.py
+  - destination: /home/ec2-user
+BeforeInstall:
+  - location: deployScripts/BeforeInstall.sh
+    timeout: 300
+    runas: root
