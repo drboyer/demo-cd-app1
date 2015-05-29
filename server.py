@@ -2,7 +2,7 @@ import cherrypy
 
 class HelloWorld(object):
   def index(self):
-    return "Hello World (version 2.1!)"
+    return "Hello World, now with auto-deployment!!"
   index.exposed = True
 
 # bind to all interfaces to make this app external
