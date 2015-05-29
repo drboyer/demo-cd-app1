@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: server.py
-    destination: /home/ec2-user
+    destination: /home/ec2-user/demo-cd-app1
 hooks:
   BeforeInstall:
     - location: deployScripts/BeforeInstall.sh
